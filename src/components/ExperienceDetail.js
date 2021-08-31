@@ -12,8 +12,8 @@ const ExperienceDetail = props => {
                 </div>
             </div>
             <ul>
-                {props.details.map(detail => {
-                    return <li>{detail}</li>
+                {props.details.map((detail, index) => {
+                    return <li key={index}>{detail}</li>
                 })}
             </ul>
         </div>
