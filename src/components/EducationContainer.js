@@ -4,7 +4,7 @@ import EducationDetail from "./EducationDetail"
 
 const EducationContainer = () => {
     return (
-        <div>
+        <div className="education-container">
             <Title title="Education"/>
             <EducationDetail 
                 name="General Assembly"

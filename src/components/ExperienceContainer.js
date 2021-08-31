@@ -3,7 +3,7 @@ import ExperienceDetail from "./ExperienceDetail"
 
 const ExperienceContainer = () => {
     return (
-        <div>
+        <div className="experience-container">
             <Title title="Experience"/>
             
             <div>

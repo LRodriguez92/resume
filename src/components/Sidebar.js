@@ -3,14 +3,15 @@ import Skill from "./Skill"
 
 const Sidebar = () => {
     return (
-        <div>
-            <h1>Leonardo Rodriguez</h1>
+        <div  className="sidebar-container">
+            <h1>Leonardo <br/> Rodriguez</h1>
             <h2>Software Engineer</h2>
 
             <div>
                 <Title title="Contact"/>
                 <p>CodedByLeo@gmail.com</p>
                 <a href="https://www.linkedin.com/in/leonardo-rodriguez/">LinkedIn</a>
+                <br/>
                 <a href="https://github.com/LRodriguez92">Github</a>
             </div>
 

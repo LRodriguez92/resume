@@ -7,9 +7,11 @@ import Sidebar from './components/Sidebar';
 function App() {
   return (
     <div className="App">
-      <Sidebar />
-      <EducationContainer />
-      <ExperienceContainer />
+      <Sidebar/>
+      <main>
+        <EducationContainer />
+        <ExperienceContainer />
+      </main>
     </div>
   );
 }
